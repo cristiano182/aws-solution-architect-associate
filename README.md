@@ -1,5 +1,8 @@
 
-# AWS Certification: Solution Architect Associate Parte 1
+
+# 
+<details>
+ <summary><b>AWS Certification: Solution Architect Associate Parte 1</b></summary>
 - https://cursos.alura.com.br/course/aws-certified-solutions-architect-associate-parte1
 
 ## Certificação Solution Architect Associate
@@ -368,6 +371,8 @@ Claro! Aqui está um exercício baseado na aula sobre versionamento no serviço 
 
 Lembre-se de praticar essas atividades no ambiente da AWS para melhor compreensão do funcionamento do versionamento e das permissões no S3. Divirta-se explorando e experimentando!
 
+
+
 ## S3-Simple Storage Service - Parte2
 ### - Lifecycle [Aula](https://cursos.alura.com.br/course/aws-certified-solutions-architect-associate-parte1/task/77352)
 Nesta aula, aprendemos sobre o recurso do S3 chamado Lifecycle, que permite definir os ciclos de vida dos objetos armazenados no bucket. Existem duas ações principais: transição e expiração. A ação de transição permite mover objetos para uma classe de armazenamento mais barata após um determinado período de tempo, enquanto a ação de expiração define quando os objetos serão excluídos do bucket. É possível combinar essas duas ações para criar regras de ciclo de vida. Na console do S3, é possível configurar essas regras, definindo o nome da regra, o escopo, a transição de classe e o período de tempo para a expiração. É importante entender o comportamento das regras e as ações envolvidas para gerenciar o S3 de forma eficiente.
@@ -517,18 +522,13 @@ Um exercício baseado nessa aula seria criar um bucket no S3 e configurar permis
 5. Teste o acesso ao bucket, fazendo o login com as credenciais do usuário e verificando se é possível visualizar e interagir com os objetos no bucket.
 
 Lembre-se de excluir o bucket e o usuário criados ao final do exercício para evitar custos desnecessários. E não se esqueça de explorar a documentação da AWS para obter mais informações detalhadas sobre como realizar essas configurações.
+</details>
 
 
 
-
-
-
-
-
-
-
-# AWS Certification: Solutions Architect Associate Parte 2
-- https://cursos.alura.com.br/course/aws-certified-solutions-architect-associate-parte2
+#
+<details> <summary><b>AWS Certification: Solutions Architect Associate Parte 2 </b></summary>
+ - https://cursos.alura.com.br/course/aws-certified-solutions-architect-associate-parte2
 
 ## AWS Snowball, Storage Gateway e CloudFront
 ### - Introdução [Aula](https://cursos.alura.com.br/course/aws-certified-solutions-architect-associate-parte2/task/77312)
@@ -1063,7 +1063,12 @@ Claro! Aqui está um exercício baseado na aula:
 
 Lembre-se de consultar a documentação da AWS e realizar os exercícios em um ambiente de teste. Isso ajudará a consolidar o conhecimento adquirido na aula e a se preparar para a próxima parte do curso.
 
-# AWS Certification: Solutions Architect Associate Parte 3
+</details>
+
+
+#
+<details>
+<summary> <b>AWS Certification: Solutions Architect Associate Parte 3 </b> </summary>
 - https://cursos.alura.com.br/course/aws-certified-solutions-architect-associate-parte3
 
 ## AWS CloudWatch
@@ -1442,8 +1447,14 @@ Um exercício baseado nessa aula seria o seguinte:
 
 Lembre-se sempre de utilizar o free tier e fazer a limpeza adequada dos recursos para evitar custos desnecessários na AWS.
 
+</details> 
 
-# AWS Certification: Solutions Architect Associate Parte 4
+
+
+
+#
+<details> 
+<summary> <b>AWS Certification: Solutions Architect Associate Parte 4 </b> </summary>
 - https://cursos.alura.com.br/course/aws-certified-solutions-architect-associate-parte4
 
 ## Network services
@@ -1785,4 +1796,6 @@ Um exercício interessante baseado nessa aula seria criar uma arquitetura server
 Após configurar a API, teste a chamada da função Lambda através do API Gateway e verifique se o retorno é o esperado. Em seguida, experimente adicionar mais funcionalidades à função Lambda, como a leitura de dados de um banco de dados ou o processamento de uma requisição HTTP.
 
 Essa atividade permitirá que você pratique a criação de uma arquitetura serverless, entendendo como funciona a integração entre o Lambda e o API Gateway, além de explorar as possibilidades de implementação de lógica de negócio dentro da função Lambda.
+
+</details> 
 
